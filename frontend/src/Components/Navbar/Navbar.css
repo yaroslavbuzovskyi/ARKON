@@ -97,7 +97,8 @@
     margin-top: -25px;
     margin-left: -40px;
     border-radius: 11px;
-    font-size: 12px;
-    background: red;
+    font-weight: 700;
+    font-size: 9px;
+    background: #C8A96E;
     color: white;
 }

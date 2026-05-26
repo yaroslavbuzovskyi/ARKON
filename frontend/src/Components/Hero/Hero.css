@@ -1,0 +1,124 @@
+* {
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 64px;
+    background-image: url('../Assets/hero-image-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-text p {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #C8A96E;
+    margin-bottom: 1.5rem;
+}
+
+.hero-text h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: clamp(3rem, 6vw, 5.5rem);
+    line-height: 1.05;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.hero-text h2 span {
+    font-style: italic;
+    color: #E8D5A8;
+}
+
+.hero-button {
+    cursor: pointer;
+    width: 280px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    background: #C8A96E;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.hero-button:hover {
+    background: #b5955c;
+}
+
+.hero-button img {
+    width: 10px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.hero-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.hero-right-box {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.men-clothing {
+    background-image: url('../Assets/hero-image-2.png');
+}
+
+.women-clothing {
+    background-image: url('../Assets/hero-image-3.png');
+}
+
+.hero-right-box span {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #8A8480;
+    border: 1px solid rgba(200, 169, 110, 0.4);
+    background: white;
+    padding: 4px 10px;
+}
+
+.hero-right-box h3 {
+    max-width: 160px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.1;
+    color: white;
+}
