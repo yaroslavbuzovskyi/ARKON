@@ -1,0 +1,31 @@
+.item{
+    width: 290px;
+}
+
+.item p{
+    margin: 6px 0;
+}
+
+.item-prices{
+    font-family: "Cormorant Garamond", serif;
+    display: flex;
+    gap: 6px;
+}
+
+.item-price-new{
+    font-weight: 600;
+    font-size: 18px;
+    color: #1A1814;
+}
+
+.item-price-old{
+    font-weight: 400;
+    font-size: 14px;
+    color: #8A8480;
+    text-decoration: line-through;
+}
+
+.item:hover{
+    transform: scale(1.05); 
+    transition: .6s;
+}
