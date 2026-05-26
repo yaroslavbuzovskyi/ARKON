@@ -3,7 +3,16 @@
 }
 
 .item p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     margin: 6px 0;
+}
+
+.item span{
+    font-size: 12px;
+    color: #8A8480;
+    margin-bottom: 8px;
 }
 
 .item-prices{
@@ -13,14 +22,16 @@
 }
 
 .item-price-new{
+    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     color: #1A1814;
 }
 
 .item-price-old{
+    font-family: "Cormorant Garamond", serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: #8A8480;
     text-decoration: line-through;
 }

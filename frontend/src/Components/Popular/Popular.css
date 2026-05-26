@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.popular{
+    max-width: 1216px;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular h1{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    color: #1A1814;
+    line-height: 1;
+}
+
+.popular h1 span{
+    font-style: italic;
+    color: #C8A96E;
+}
+
+.popular-item{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.popular-item .item img {
+    width: 289px;
+    height: 385px;
+    object-fit: cover;
+    background-position: center;
+}
