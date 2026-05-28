@@ -57,7 +57,7 @@
     transition: 0.3s ease;
 }
 
-.offers-right button img{
+.offers-right button .arrow-icon{
     width: 16px;
 }
 

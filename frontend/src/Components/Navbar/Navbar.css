@@ -66,26 +66,9 @@
     gap: 30px;
 }
 
-.nav-login-cart img{
+.nav-icon{
     width: 22px;
-}
-
-.nav-login-cart button{
-    cursor: pointer;
-    width: 120px;
-    height: 44px;
-    outline: none;
-    border: 1px solid #4A4640;
-    border-radius: 75px;
-    font-weight: 500;
-    font-size: 16px;
     color: #4A4640;
-    background: white;
-}
-
-.nav-login-cart button:active{
-    color: white;
-    background: #4A4640;
 }
 
 .nav-cart-count{

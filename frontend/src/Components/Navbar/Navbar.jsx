@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import cart_icon from '../Assets/cart_icon.png'
-import user_icon from '../Assets/user_icon.png'
+import { RiShoppingCartLine } from '@remixicon/react';
+import { RiUserLine } from '@remixicon/react'; 
 import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
@@ -21,9 +21,9 @@ export const Navbar = () => {
             <li onClick={() => setMenu("kids")}><Link to='/kids'>Kids</Link>{menu === "kids"?<hr/>:<></>}</li>
         </ul>
         <div className="nav-login-cart">
-            <Link to='/cart'><img src={cart_icon} alt="" /></Link>
+            <Link to='/cart'><RiShoppingCartLine className='nav-icon' size={22}/></Link>
             <div className="nav-cart-count">0</div>
-            <Link to='/login'><img src={user_icon} alt="" /></Link>
+            <Link to='/login'><RiUserLine className='nav-icon' size={22} /></Link>
         </div>
         </div>
     </div>

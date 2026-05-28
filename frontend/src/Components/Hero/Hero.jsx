@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import arrow_icon from '../Assets/arrow.png';
+import { RiArrowRightLongLine } from '@remixicon/react';
 
 const Hero = () => {
     return (
@@ -12,7 +12,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-button">
                     <div>View the collection</div>
-                    <img src = {arrow_icon} alt="" />
+                    <RiArrowRightLongLine className="arrow-icon" />
                 </div>
             </div>
             <div className="hero-right">

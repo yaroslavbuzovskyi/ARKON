@@ -69,8 +69,8 @@
     background: #b5955c;
 }
 
-.hero-button img {
-    width: 10px;
+.hero-button .arrow-icon {
+    width: 14px;
     height: auto;
     flex-shrink: 0;
 }
