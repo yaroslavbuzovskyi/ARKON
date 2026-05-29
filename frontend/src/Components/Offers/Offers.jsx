@@ -1,6 +1,5 @@
 import React from 'react'
 import './Offers.css'
-import arrow_icon from '../Assets/arrow.png';
 import { RiArrowRightLongLine } from '@remixicon/react';
 
 const Offers = () => {
